@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(#000000f3, #3a2631);
+  display: flex;
+  /*background-image: url(1492767845126836439.jpg);*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  box-shadow: 0 1px 10px rgba(255, 0, 179, 0.788);
+  padding: 100px;
+  background-color: #f8f8f8;
+  background-image: url(image3.jpg) ;
+
+  
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  border: 5px solid #000000;
+}
+
+.grid button {
+  background-color: #0000001a;
+  
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid #ea00ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer button {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  width: 80px;
+  background-color: #ffffff;
+  color: #ff008c;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  color: #D4EE9F;
+  background-color: #d30695;
+}
+
+.footer span {
+  flex: 1;
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.message {
+  color:#e90ab1;
+  height: 80px;
+}
